@@ -1,5 +1,71 @@
+h1 {
+    font-family: "New Century Schoolbook", serif;
+    font-size: 55px;
+    color: #4E4041;
+}
+
 body {
-    background: #D1F5FF;
-    color: #1E2749;
+    background: #D7B29D;
+    color: #796465;
     text-align: center;
+    font-family: "Futura", sans-serif;
+}
+
+#header {
+    border-color: white;
+}
+
+#div2 {
+    width: 750px;
+    margin: auto;
+}
+
+#great-lakes-state {
+    background: #C4E0F9;
+}
+
+#great-lakes-info {
+    background: #9BBDF9;
+}
+
+#destinations {
+    background: #67AAF9;
+}
+
+#seasons {
+    background: #558CCC;
+}
+
+ul li {
+    list-style-position:inside
+}
+
+ol li {
+    list-style-position:inside
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table#t1, th, tr, td {
+    border: 1px solid #4E4041;
+    text-align: left;
+    padding: 15px;
+    color: #857273;
+}
+
+tr:hover {background-color: #C4A28F}
+
+a:link, a:visited {
+    background-color: #C4E0F9;
+    color: #796465;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: white;
 }
